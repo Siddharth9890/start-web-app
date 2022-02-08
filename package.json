@@ -1,14 +1,14 @@
 {
-  "name": "temp",
+  "name": "setup-web-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simpler way to create all your apps using react and node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Siddharth Singh",
+  "license": "MIT",
   "dependencies": {
     "all-the-package-names": "^1.3905.0",
     "chalk": "^4.1.2",
@@ -18,5 +18,13 @@
     "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
     "nanospinner": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharth9890/setup-web-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Siddharth9890/setup-web-app/issues"
+  },
+  "homepage": "https://github.com/Siddharth9890/setup-web-app#readme"
 }
