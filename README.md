@@ -1,16 +1,16 @@
 
-#  Welcome to  setup-web-app👋
-setup-web-app is a simpler way to create all your apps using react and node.
+#  Welcome to  start-web-app👋
+start-web-app is a simpler way to create all your apps using react and node.
 It's simple cli to manage all your project installations. There are starter options given to start with😊
 
 
 
 ## Installation
 
-Use the npm package manager to install setup-web-app. Make sure you install it globally 
+Use the npm package manager to install start-web-app. Make sure you install it globally to work properly
 
 ```bash
-  npm install -g setup-web-app
+  npm install -g start-web-app
 ```
     
 ## Demo
@@ -22,7 +22,7 @@ Make sure you have [npx](https://www.npmjs.com/package/npx) installed (npx is sh
 Just run the following command at the root of your project and answer simple questions:
 
 ```
-npx setup-web-app
+npx start-web-app
 Let's setup your PROJECT
 
 ? Name of your project folder Project
