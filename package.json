@@ -1,6 +1,6 @@
 {
-  "name": "setup-web-app",
-  "version": "1.1.3",
+  "name": "start-web-app",
+  "version": "1.0.1",
   "description": "A simpler way to create all your apps using react and node",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [
     "react",
     "node",
-    "setup-web-app",
+    "start-web-app",
     "web",
     "frontend",
     "backend"
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Siddharth9890/setup-web-app.git"
+    "url": "git+https://github.com/Siddharth9890/start-web-app.git"
   },
   "bugs": {
-    "url": "https://github.com/Siddharth9890/setup-web-app/issues"
+    "url": "https://github.com/Siddharth9890/start-web-app/issues"
   },
-  "homepage": "https://github.com/Siddharth9890/setup-web-app#readme"
+  "homepage": "https://github.com/Siddharth9890/start-web-app#readme"
 }
