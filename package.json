@@ -1,6 +1,6 @@
 {
   "name": "start-web-app",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "A simpler way to create all your apps using react and node",
   "main": "index.js",
   "scripts": {
