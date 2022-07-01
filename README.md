@@ -30,16 +30,17 @@ Let's setup your PROJECT
  (Use arrow keys)
 > CREATE A NEW MERN PROJECT USING JAVASCRIPT
   SETUP/CLONE A EXISTING MERN PROJECT USING JAVASCRIPT
-  CREATE A NEW REACT PROJECT USING JAVASCRIPT
-  CREATE A NEW NODE JS PROJECT USING JAVASCRIPT
 
 ```
 ## Roadmap
 
 - Add typescript script 
 
-- Add tailwind script
+## Documentation
 
+[Introduction to all the options v1.0](https://theuniquecoder.hashnode.dev/introducing-start-web-app-a-simpler-way-to-create-all-your-apps-using-react-and-node)
+
+[Updates made to app v2.0](https://theuniquecoder.hashnode.dev/start-web-app-v20-you-want-tailwind-support-lets-get-it)
 
 ## Authors
 

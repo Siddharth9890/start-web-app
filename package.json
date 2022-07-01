@@ -1,31 +1,46 @@
 {
   "name": "start-web-app",
-  "version": "0.0.11",
+  "version": "2.0.0",
   "description": "A simpler way to create all your apps using react and node",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "bin": "./index.js",
   "keywords": [
     "react",
     "node",
     "start-web-app",
     "web",
     "frontend",
-    "backend"
+    "backend",
+    "tailwind"
   ],
-  "author": "Siddharth Singh",
+  "author": "Siddharth <siddharth.a9890@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
   "dependencies": {
-    "all-the-package-names": "^1.3905.0",
-    "chalk": "^4.1.2",
+    "all-the-package-names": "^2.0.157",
+    "chalk": "^5.0.1",
     "chalk-animation": "^1.6.0",
     "cross-spawn": "^7.0.3",
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.0",
-    "inquirer": "^8.2.0",
-    "nanospinner": "^1.0.0"
+    "inquirer": "^8.1.2",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/all-the-package-names": "^1.3744.0",
+    "@types/chalk-animation": "^1.6.0",
+    "@types/cross-spawn": "^6.0.2",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0"
   },
   "repository": {
     "type": "git",
