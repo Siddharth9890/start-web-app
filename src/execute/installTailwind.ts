@@ -42,23 +42,24 @@ export async function installTailwind(clientFolderName: string): Promise<void> {
           });
           process.exit(1);
         } else {
-          spinner.success({
-            text: "Created tailwind.config.js react app.",
-          });
           process.chdir(`./${clientFolderName}`);
-
           fs.copyFile(
             path.resolve(
-              path.join(__dirname, "../default_files/tailwind.config.js")
+              path.join(__dirname, "../../src/default_files/tailwind.config.js")
             ),
             path.resolve(process.cwd(), "./tailwind.config.js"),
             () => {}
           );
           fs.copyFile(
-            path.resolve(path.join(__dirname, "../default_files/index.css")),
+            path.resolve(
+              path.join(__dirname, "../../src/default_files/index.css")
+            ),
             path.resolve(process.cwd(), "./src/index.css"),
             () => {}
           );
+          spinner.success({
+            text: "Created tailwind.config.js react app.",
+          });
         }
       });
     }

@@ -16,19 +16,19 @@ export async function executeCreateNode(
     await makeFolder(backendFolderName);
 
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/server.js"),
+      path.resolve(__dirname, "../../src/default_files/server.js"),
       path.resolve(process.cwd(), `./${backendFolderName}/index.js`),
       () => {}
     );
 
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/.gitignore"),
+      path.resolve(__dirname, "../../src/default_files/.gitignore"),
       path.resolve(process.cwd(), `./${backendFolderName}/.gitignore`),
       () => {}
     );
 
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/.env"),
+      path.resolve(__dirname, "../../src/default_files/.env"),
       path.resolve(process.cwd(), `./${backendFolderName}/.env`),
       () => {}
     );

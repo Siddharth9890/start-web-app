@@ -1,6 +1,6 @@
 {
   "name": "start-web-app",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simpler way to create all your apps using react and node",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,8 @@
   "author": "Siddharth <siddharth.a9890@gmail.com>",
   "license": "MIT",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "src/default_files/**/*"
   ],
   "dependencies": {
     "all-the-package-names": "^2.0.157",

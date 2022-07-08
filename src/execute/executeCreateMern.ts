@@ -18,19 +18,19 @@ export async function executeCreateMERN(
 
     await makeFolders(foldersToMake);
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/.gitignore"),
+      path.resolve(__dirname, "../../src/default_files/.gitignore"),
       path.resolve(process.cwd(), `./${foldersToMake[1]}/.gitignore`),
       () => {}
     );
 
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/server.js"),
+      path.resolve(__dirname, "../../src/default_files/server.js"),
       path.resolve(process.cwd(), `./${foldersToMake[1]}/index.js`),
       () => {}
     );
 
     fs.copyFile(
-      path.resolve(__dirname, "../default_files/.env"),
+      path.resolve(__dirname, "../../src/default_files/.env"),
       path.resolve(process.cwd(), `./${foldersToMake[1]}/.env`),
       () => {}
     );
